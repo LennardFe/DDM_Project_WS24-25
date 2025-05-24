@@ -10,3 +10,7 @@ Elaboration by: **Ole Berg, Kristan Böttjer and Lennard Feuerbach**
 - How can we systematically identify high-potential regions?
 - What data sources are relevant for this analysis?
 - Which analytical methods should be applied to extract meaningful insights?
+
+---
+
+<div align="justify">To answer these questions, we employed an analytical workflow. First, we used feature selection to identify the most relevant variables influencing regional potential, thereby ensuring that the model focused on impactful data. We then applied data scaling to normalise the features and enable clean comparison across different metrics. Grid search was then employed to optimise the model parameters and enhance the robustness of our clustering algorithms. Various clustering techniques were tested, including k-means, DBSCAN and hierarchical clustering, to determine the optimal grouping of regions with similar market characteristics. The detailed results and interpretations of these analyses can be found in <a href="https://github.com/LennardFe/DDM_Project_WS24-25/blob/main/results/Final_Presentation_Berg_Boettjer_Feuerbach.pptx">this PowerPoint presentation</a>.</div>
